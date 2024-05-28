@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.resume-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #666;
+  letter-spacing: 1px;
+}
+
+.contact {
+  text-align: center;
+  /* margin-bottom: 30px; */
+}
+
+.contact p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column, .right-column {
+  width: 48%;
+}
+
+.section {
+  margin-bottom: 0px;
+  margin: 50px auto;
+}
+
+.section h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  /* border-bottom: 2px solid #ddd; */
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+.skills ul, .languages ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills ul li, .languages ul li {
+  margin: 5px 0;
+}
+
+.job, .degree {
+  /* margin-bottom: 20px; */
+  line-height: 25px;
+}
+
+.job h4, .degree h4 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.job p, .degree p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 0.95em;
+}
+
+
